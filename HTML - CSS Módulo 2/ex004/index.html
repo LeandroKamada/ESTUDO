@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div</title>
+    <style>
+        div{
+            display: inline-block ;
+            width: 300px;
+            height: 200px;
+            text-align: center;
+            background-color: lightgray;
+            border: 1px solid black;
+            
+        }
+        div > p {
+            display: none;
+            background-color: red;
+        }
+        div:hover > p { 
+            display: block;
+            background-color: blue;
+        }
+        div:hover {
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.youtube.com/watch?v=WPtRX4n0UJs&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=21">
+        <div>01</div>
+    </a>
+    <div>02</div>
+    <div>03 
+        <p> texto escondido</p>
+    </div>
+    
+</body>
+</html>

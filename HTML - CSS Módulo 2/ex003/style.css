@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(179, 247, 247);
+    width: 1000px;
+}
+
+h1#principal {
+    text-align: center;
+}
+
+h2.básico{
+    color: blue;
+}
+h2.básico-2 {
+    color: brown;
+}
+h1#CSS {
+    color: red;
+    text-align:  center;
+}
