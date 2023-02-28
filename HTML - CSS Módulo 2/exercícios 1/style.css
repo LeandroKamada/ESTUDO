@@ -28,8 +28,8 @@
     margin: 0px;
 }
 body {
-    background-color:  var(--color5);
-    color: var(--color6);
+    background-color:  var(--color6);
+    color: var(--color5);
     font-family: var(--font-pad1);
     font-style: normal;
     font-weight: 400;
